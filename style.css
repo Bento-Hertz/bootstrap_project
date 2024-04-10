@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+ul {
+    padding: 0 !important;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: "Tilt Neon";
+    background-color: rgb(230, 230, 230);
+}
+
+h2 {
+    color: rgb(29, 48, 167);
+}
+
+#header {
+    background-color: rgb(29, 48, 167);
+    color: rgb(230, 230, 230);
+}
+
+#header .navbar-brand,
+#header .nav-link {
+    color: rgb(230, 230, 230);
+}
+
+.btn-primary {
+    background-color: rgb(29, 48, 167);
+    border: none;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.nav .nav-link {
+    color: black;
+}
+
+#header .nav .nav-link.active {
+    background-color: rgb(230, 230, 230);
+    color: rgb(29, 48, 167);
+    font-weight: bold;
+}
+
+.nav .nav-link.active {
+    background-color: rgb(29, 48, 167);
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    background-color: rgb(230, 230, 230);
+}
+
+#events,
+#contact {
+    background-color: rgba(29, 47, 167, 0.25);
+}
+
+#about img,
+#products img {
+    object-fit: cover;
+}
+
+#products img {
+    min-height: 168px;
+    border: black solid 2px;
+    border-radius: 8px;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.social-media,
+.social-media a,
+.address {
+    color: rgb(29, 48, 167);
+}
+
+@media(min-width: 768px) {
+    #header .nav .nav-link.active {
+        margin-left: 16px;
+    }
+}
